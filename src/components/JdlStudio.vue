@@ -25,7 +25,6 @@
         <i class="el-icon-delete"></i>
       </a>
       <JdlFormEditor />
-      <JdlExeutor />
     </div>
   </div>
 </template>
@@ -53,12 +52,10 @@ import "codemirror/addon/hint/show-hint";
 import "codemirror/addon/scroll/simplescrollbars";
 
 import JdlFormEditor from "./JdlFormEditor/JdlFormEditor.vue";
-import JdlExeutor from "./JdlExeutor/JdlExeutor.vue";
 export default {
   name: "jdlstudio",
   components: {
-    JdlFormEditor,
-    JdlExeutor
+    JdlFormEditor
   },
   data() {
     return {
